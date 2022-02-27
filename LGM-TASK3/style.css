@@ -1,0 +1,83 @@
+body > table{
+    width: 80%;
+    color: #000000;
+    margin: 40px auto;
+    background-color: rgb(236, 208, 208);
+    border: 1px solid black;
+}
+h2{
+    color: #000000;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+table{
+    color: #000000;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.list{
+    color: #000000;
+    width: 100%;
+    border: 1px solid black;
+}
+td, th{
+    border: 1px solid black;
+    text-align: left;
+    color: #000000;
+    padding: 8px 15px;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: #000000;
+}
+input[type="text"], input[type="number"], input[type="date"]{
+    width: 91%;
+    color: #000000;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+  
+    border: 1px solid black;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #000000;
+    margin: 15px 0 10px;
+    outline: none;
+}
+h4{
+    color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 1px solid black;
+}
+input[type="submit"]{
+    color: #000000;
+    background-color: #41fc8f;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover{
+     color: #000000;
+    background: rgb(55, 255, 205);
+    border: 1px solid black;
+}
+input[type="reset"]{
+    background-color: #fc414a;
+    border: 1px solid black;
+}
+input[type="reset"]:hover{
+    background: rgb(255, 95, 95);
+    border: 1px solid black;
+}
